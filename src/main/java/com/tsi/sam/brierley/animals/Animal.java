@@ -9,11 +9,11 @@ public abstract class Animal {
 
 
     ///////////////////Methods/////////////////////////
-    public void Die(){
+    public void die(){
 
     }
 
-    public void Sleep(){
+    public void sleep(){
 
     }
 
