@@ -9,12 +9,20 @@ public abstract class Animal {
 
 
     ///////////////////Methods/////////////////////////
-    public void die(){
+    public void Die(){
 
     }
 
-    public void sleep(){
+    public void Sleep(){
 
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
     }
 
 }
