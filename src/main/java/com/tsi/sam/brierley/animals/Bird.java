@@ -8,5 +8,5 @@ public abstract class Bird extends Animal {
 
 
     /////////////////Methods///////////////////
-    public abstract String breath();
+    public abstract String breathe();
 }
