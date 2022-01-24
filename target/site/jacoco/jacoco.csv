@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Animals,com.tsi.sam.brierley.animals,Main,4,0,0,0,2,0,2,0,2,0
+Animals,com.tsi.sam.brierley.animals,Cat,0,17,0,0,0,7,0,2,0,2
+Animals,com.tsi.sam.brierley.animals,Animal,2,17,0,0,2,7,2,5,2,5
+Animals,com.tsi.sam.brierley.animals,Bird,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sam.brierley.animals,Mammal,0,3,0,0,0,1,0,1,0,1
