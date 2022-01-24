@@ -3,6 +3,7 @@ package com.tsi.sam.brierley.animals;
 public abstract class Animal {
     ///////////////////Attributes///////////////////////
     private int age;
+    private int weight;
 
     ///////////////////Constructors//////////////////////
 
@@ -25,4 +26,11 @@ public abstract class Animal {
         this.age = age;
     }
 
+    public int getWeight(){
+        return weight;
+    }
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
 }
