@@ -33,7 +33,7 @@ public class ToucanTest {
     @Test
     public void test_toucan_eat(){
         Toucan testToucan = new Toucan();
-        testToucan.eat("Seeds");
+        testToucan.eat();
         assertEquals(410, testToucan.getWeight(),
                 "The expected weight of the toucan was not expected");
     }

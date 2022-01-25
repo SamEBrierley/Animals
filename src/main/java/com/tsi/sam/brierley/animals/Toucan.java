@@ -13,7 +13,7 @@ public class Toucan extends Bird implements Flying{
     public String breathe(){
         return "I am Breathing";
     }
-    public void eat(String food){
+    public void eat(){
         setWeight(getWeight()+10);
     }
 
