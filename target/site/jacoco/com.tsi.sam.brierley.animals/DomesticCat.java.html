@@ -3,20 +3,22 @@
 public class DomesticCat extends Cat {
     ////////////////////////Attributes////////////////////////
     private String petCatName;
-    private String petCatAddress;
+
     ///////////////////////Constructor////////////////////////
 <span class="fc" id="L8">    public DomesticCat(){</span>
 <span class="fc" id="L9">        petCatName = &quot;Dennis&quot;;</span>
-<span class="fc" id="L10">    }</span>
+<span class="fc" id="L10">        setWeight(1000);</span>
+<span class="fc" id="L11">        setAge(5);</span>
+<span class="fc" id="L12">    }</span>
 
     //////////////////////Methods/////////////////////////////
     public String getDomesticCatName(){
-<span class="fc" id="L14">        return petCatName;</span>
+<span class="fc" id="L16">        return petCatName;</span>
     }
 
     public void setDomesticCatName(String petName){
-<span class="nc" id="L18">        petCatName = petName;</span>
-<span class="nc" id="L19">    }</span>
+<span class="fc" id="L20">        petCatName = petName;</span>
+<span class="fc" id="L21">    }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

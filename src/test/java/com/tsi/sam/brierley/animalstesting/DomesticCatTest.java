@@ -21,4 +21,5 @@ public class DomesticCatTest {
         assertEquals("Elsie", testDomCat.getDomesticCatName(),
                 "The expected name of the domestic cat is wrong");
     }
+
 }

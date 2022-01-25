@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0.011" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\samel\AppData\Local\Temp\surefire12559103656722702623\surefirebooter14535721681546148497.jar C:\Users\samel\AppData\Local\Temp\surefire12559103656722702623 2022-01-25T10-05-15_649-jvmRun1 surefire5529434046623853255tmp surefire_010876313549213202364tmp"/>
+    <property name="sun.java.command" value="C:\Users\samel\AppData\Local\Temp\surefire6107381026469466445\surefirebooter7341565742988317947.jar C:\Users\samel\AppData\Local\Temp\surefire6107381026469466445 2022-01-25T14-57-14_686-jvmRun1 surefire15125832316837424095tmp surefire_011545692872040629819tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\samel\IdeaProjects\Animals\target\test-classes;C:\Users\samel\IdeaProjects\Animals\target\classes;C:\Users\samel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\samel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\samel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\samel\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\samel\AppData\Local\Temp\surefire12559103656722702623\surefirebooter14535721681546148497.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\samel\AppData\Local\Temp\surefire6107381026469466445\surefirebooter7341565742988317947.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -56,10 +56,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_Domestic_Cat_getName" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0.006"/>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_get_age" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0"/>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_set_weight" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0"/>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_tucan_breath" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0.001"/>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_cat_breathe" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0"/>
-  <testcase name="com.tsi.sam.brierley.animalstesting.AnimalTest.test_set_age" classname="com.tsi.sam.brierley.animalstesting.AnimalTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_set_weight" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_get_weight" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_eat" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_breath" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_flight" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_takeoff" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_defecate" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
+  <testcase name="com.tsi.sam.brierley.animalstesting.ToucanTest.test_toucan_landing" classname="com.tsi.sam.brierley.animalstesting.ToucanTest" time="0"/>
 </testsuite>
