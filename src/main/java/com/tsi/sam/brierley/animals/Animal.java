@@ -10,6 +10,8 @@ public abstract class Animal {
 
 
     ///////////////////Methods//////////////////////////
+    /*
+
     public void die(){
 
     }
@@ -17,7 +19,7 @@ public abstract class Animal {
     public void sleep(){
 
     }
-
+    */
     public int getAge(){
         return age;
     }
