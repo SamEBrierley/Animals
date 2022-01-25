@@ -1,6 +1,6 @@
 package com.tsi.sam.brierley.animals;
 
-public class Toucan extends Bird{
+public class Toucan extends Bird implements Flying{
     /////////////////////////Attributes//////////////////////////////////
 
 
@@ -8,7 +8,9 @@ public class Toucan extends Bird{
 
 
     //////////////////////////////Constructors/////////////////////////
-
+    public Toucan(){
+        setWeight(400);
+    }
 
 
 
@@ -16,5 +18,20 @@ public class Toucan extends Bird{
     //////////////////////////Methods////////////////////////////
     public String breathe(){
         return "I am Breathing";
+    }
+    public void eat(String food){
+        setWeight(getWeight()+10);
+    }
+
+    public void takeoff(){
+
+    }
+
+    public void flight(){
+
+    }
+
+    public void landing(){
+
     }
 }
