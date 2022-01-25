@@ -1,4 +1,5 @@
 package com.tsi.sam.brierley.animalstesting;
+import com.tsi.sam.brierley.animals.DomesticCat;
 import com.tsi.sam.brierley.animals.Tucan;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -6,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.tsi.sam.brierley.animals.Cat;
 
-public class TestAnimal {
+public class AnimalTest {
     @Test
     public void test_get_age(){
         Cat testCat = new Cat();
@@ -40,5 +41,12 @@ public class TestAnimal {
         Tucan testTucan = new Tucan();
         testTucan.breathe();
         assertEquals("I am Breathing", testTucan.breathe(), "The expected state of the tucan breathing was wrong");
+    }
+
+    @Test
+    public void test_Domestic_Cat_getName(){
+        DomesticCat testDomCat = new DomesticCat();
+        testDomCat.getDomesticCatName();
+        assertEquals("Dennis", testDomCat.getDomesticCatName(), "The expected name of the domestic cat is wrong");
     }
 }
