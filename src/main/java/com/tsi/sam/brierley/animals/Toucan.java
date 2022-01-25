@@ -1,6 +1,6 @@
 package com.tsi.sam.brierley.animals;
 
-public class Tucan extends Bird{
+public class Toucan extends Bird{
     /////////////////////////Attributes//////////////////////////////////
 
 
