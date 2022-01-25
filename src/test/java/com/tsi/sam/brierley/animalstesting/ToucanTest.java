@@ -33,4 +33,5 @@ public class ToucanTest {
         testToucan.eat("Seeds");
         assertEquals(410, testToucan.getWeight(), "The expected weight of the toucan was not expected");
     }
+
 }

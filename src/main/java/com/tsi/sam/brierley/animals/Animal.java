@@ -20,6 +20,10 @@ public abstract class Animal {
 
     }
     */
+
+    public void defecate(){
+        setWeight(getWeight()-(getWeight()/10));
+    }
     public int getAge(){
         return age;
     }

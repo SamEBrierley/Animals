@@ -31,4 +31,12 @@ public class CatTest {
         testCat.breathe();
         assertEquals("I am Breathing", testCat.breathe(), "The expected state of the cat breathing was wrong");
     }
+
+    @Test
+    public void test_cat_defecate(){
+        Cat testCat = new Cat();
+        testCat.defecate();
+        assertEquals(900, testCat.getWeight(), "The expected weight of the cat was wrong");
+    }
+
 }
