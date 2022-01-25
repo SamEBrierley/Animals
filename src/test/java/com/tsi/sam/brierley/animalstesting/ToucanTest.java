@@ -43,7 +43,7 @@ public class ToucanTest {
         Toucan testToucan = new Toucan();
         testToucan.defecate();
         assertEquals(360, testToucan.getWeight(),
-                "The expected weight of the cat was wrong");
+                "The expected weight of the toucan was wrong");
     }
 
     @Test
