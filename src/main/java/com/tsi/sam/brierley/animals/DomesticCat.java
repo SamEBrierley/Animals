@@ -7,6 +7,8 @@ public class DomesticCat extends Cat {
     ///////////////////////Constructor////////////////////////
     public DomesticCat(){
         petCatName = "Dennis";
+        setWeight(1000);
+        setAge(5);
     }
 
     //////////////////////Methods/////////////////////////////

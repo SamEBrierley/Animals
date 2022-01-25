@@ -11,8 +11,6 @@ public class Cat extends Mammal{
     }
 
 
-
-
     //////////////////////////Methods////////////////////////////
     public String breathe(){
         return "I am Breathing";
