@@ -10,17 +10,6 @@ public abstract class Animal {
 
 
     ///////////////////Methods//////////////////////////
-    /*
-
-    public void die(){
-
-    }
-
-    public void sleep(){
-
-    }
-    */
-
     public void defecate(){
         setWeight(getWeight()-(getWeight()/10));
     }
