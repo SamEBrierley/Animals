@@ -17,15 +17,19 @@ public class Toucan extends Bird implements Flying{
         setWeight(getWeight()+10);
     }
 
-    public void takeoff(){
+
+    public String takeoff(){
         flightStatus = "Running for take off";
+        return flightStatus;
     }
 
-    public void flight(){
+    public String flight(){
         flightStatus = "Soaring Majestically";
+        return flightStatus;
     }
 
-    public void landing(){
+    public String landing(){
         flightStatus = "Stops flapping and glides for landing";
+        return flightStatus;
     }
 }
